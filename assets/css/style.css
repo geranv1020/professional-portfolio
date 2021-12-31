@@ -12,6 +12,7 @@ body {
 header {
     padding: 25px 40px;
     background-color: rgb(32, 31, 31);
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -62,14 +63,16 @@ header nav ul li a {
 }
 
 .bio {
-    text-align: center;
+    text-align: left;
 }
 
 .bio h2 {
     font-weight: bold;
     font-size: 36px;
     color: rgb(37, 32, 58);
+    float: left;
     margin: 0;
+    padding-left: 20px;
 } 
 
 .bio p {
@@ -77,7 +80,9 @@ header nav ul li a {
     color: rgb(37, 32, 58);
     width: 60%;
     font-size: 17px;
-    margin: 0 auto;
+    border-left: 3px solid rgb(37, 32, 58);
+    margin: 30px auto;
+    padding-left: 20px;
 }
 
 .contact a {
