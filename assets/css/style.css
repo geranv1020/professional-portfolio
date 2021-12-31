@@ -26,11 +26,6 @@ header h1 {
     display: inline;
 }
 
-header a {
-    text-decoration: underline;
-    color: lightskyblue;
-}
-
 header nav {
     float: right;
     margin: 7px 0;
@@ -44,6 +39,7 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    color: lightskyblue;
 }
 
 .hero {
@@ -57,9 +53,12 @@ header nav ul li a {
 .hero h2 {
     font-weight: bold;
     font-size: 36px;
-    color: lightskyblue;
-    float: right;
-    margin: 0;
+    color: rgb(32, 31, 31);
+    border: 10px solid lightskyblue;
+    background-color: lightskyblue;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
 }
 
 .bio {
