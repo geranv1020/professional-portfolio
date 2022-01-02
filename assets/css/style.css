@@ -8,6 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(215, 215, 223);
 }
+/* HEADER / NAV BAR STYLES START */
 
 header {
     padding: 25px 40px;
@@ -54,6 +55,10 @@ header nav ul li a {
     color: lightskyblue;
 }
 
+/* HEADER / NAVBAR STYLES END */
+
+/* HERO STYLES START */
+
 .hero {
     background-image: url(../images/hero-image2.jpeg);
     height: 300px;
@@ -83,6 +88,10 @@ header nav ul li a {
     top: 60px;
 }
 
+/* HERO STYLES END */
+
+/* BIO SECTION STYLES START */
+
 .bio h2 {
     font-weight: bold;
     font-size: 36px;
@@ -103,7 +112,13 @@ header nav ul li a {
     margin: 30px auto;
     padding-left: 20px;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+/* BIO SECTION STYLES END */
+
+/* WORK SECTION STYLES START */
 
 .work {
     text-align: left;
@@ -133,6 +148,10 @@ header nav ul li a {
     margin-top: 30px;
     margin-bottom: 60px;
 }
+
+/* WORK SECTION STYLES END */
+
+/* CONTACT SECTION STYLES START */
 
 .contact h2 {
     font-weight: bold;
@@ -166,6 +185,8 @@ header nav ul li a {
     padding-top: 25px;
 }
 
+/* CONTACT SECTION STYLES END */
+
  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
  @media screen and (max-width: 980px) {
     header {
@@ -187,21 +208,5 @@ header nav ul li a {
   
     header nav ul li a {
       font-size: 20px;
-    }
-  
-    .hero  {
-      width: 100%;
-    }
-  
-    .bio {
-      width: 80%;
-    }
-    
-    .work {
-      flex: 0 70%;
-    }
-    
-    .contact iframe{
-      flex: 1 100%;
     }
  }
