@@ -149,6 +149,15 @@ header nav ul li a {
     margin-bottom: 60px;
 }
 
+.project-one img {
+    position: relative;
+    margin-left: 350px;
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
 /* WORK SECTION STYLES END */
 
 /* CONTACT SECTION STYLES START */
