@@ -138,9 +138,21 @@ header nav ul li a {
     margin-bottom: 60px;
 }
 
+.row {
+    display: flex;
+}
+
+.col-sm-4 {
+    width: 33.33%;
+    padding: 5px;
+}
+
 .run-buddy img {
     border-left: 3px solid rgb(37, 32, 58);
-    padding-left: 25px;
+}
+
+
+    /*padding-left: 25px;
     position: relative;
     left: 288px;
     height: 300px;
@@ -157,6 +169,10 @@ header nav ul li a {
     margin-top: 30px;
     margin-bottom: 60px;
 }
+
+.project-two img {
+
+}*/
 
 /* WORK SECTION STYLES END */
 
